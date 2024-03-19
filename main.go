@@ -8,6 +8,8 @@ import (
 
 func init() {
 	launcher.LoadEnvVariables();
+	launcher.DbContext();
+	launcher.SyncDataBases();
 }
 
 func main() {
